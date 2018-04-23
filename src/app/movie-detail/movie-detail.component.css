@@ -1,0 +1,13 @@
+.details {
+	background-color: mediumaquamarine;
+	color: white;
+	padding: 15px;
+	margin: 10px;
+	width: 400px;
+	text-align: left;
+	font-size: 14px;
+}	
+
+input {
+	width: 100%;
+}

@@ -1,0 +1,27 @@
+.movies {
+    background-color: #3399ff;
+    padding: 15px 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.movies .movieListItem {
+		font-size: 14px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		background-color: #cce5ff;
+		padding: 10px;
+		margin: 2px;
+		text-align: left;
+		cursor: pointer;
+}
+
+.movies .selected {
+	color: white;
+	background-color: mediumaquamarine;
+}
+
+.parents {
+	display: flex;
+}
+
+

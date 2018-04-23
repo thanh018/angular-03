@@ -1,0 +1,17 @@
+<div
+		*ngIf="movie"
+		class="details"
+	>
+  <h3>You selected: {{movie.name | uppercase}}. Details: </h3>
+  <table width="100%">
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" [(ngModel)] ="movie.name" placeholder="name"></td>
+    </tr>
+    <tr>
+        <td>Release year:</td>
+        <td><input type="number" [(ngModel)] ="movie.releaseYear" placeholder="name"></td>
+    </tr>
+
+  </table>
+</div>
